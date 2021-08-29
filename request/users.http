@@ -1,0 +1,15 @@
+POST http://localhost:3030/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "abc@gmail.com",
+    "password": "helloworld"
+}
+
+{
+  "_id": "612bff8fce5ee01fe0a60ed1",
+  "email": "abc@gmail.com",
+  "createdAt": "2021-08-29T21:43:43.489Z",
+  "updatedAt": "2021-08-29T21:43:43.489Z",
+  "__v": 0
+}
