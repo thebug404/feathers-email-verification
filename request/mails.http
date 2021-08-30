@@ -1,0 +1,10 @@
+POST http://localhost:3030/mails HTTP/1.1
+Content-Type: application/json
+
+{
+    "from": "abc@gmail.com",
+    "to": "xyz@gmail.com",
+    "subject": "Send emails with Feathers",
+    "text": "Testing sending emails with feathers",
+    "html": "<h1>Yuhuu! We have send our email.</h1>"
+}

@@ -1,7 +1,10 @@
 import { Application } from '../declarations';
+
 import users from './users/users.service';
-// Don't remove this comment. It's needed to format import lines nicely.
+import mails from "./mails/mails.service";
 
 export default function (app: Application): void {
+  // We expose the service to the rest of the application.
+  app.configure(mails);
   app.configure(users);
 }

@@ -28,5 +28,13 @@
       "passwordField": "password"
     }
   },
+  "mailer": {
+    "host": "smtp.mailtrap.io",
+    "port": 2525,
+    "auth": {
+      "user": "<Your user>",
+      "pass": "<Your pass>"
+    }
+  },
   "mongodb": "mongodb://localhost:27017/feathers_email_verification"
 }
