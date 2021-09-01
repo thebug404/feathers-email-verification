@@ -32,9 +32,11 @@
     "host": "smtp.mailtrap.io",
     "port": 2525,
     "auth": {
-      "user": "<Your user>",
-      "pass": "<Your pass>"
+      "user": "c6baf707786ac5",
+      "pass": "70173b0015acd0"
     }
   },
+  "domain": "http://localhost:8080",
+  "email_domain": "support@feathers.com",
   "mongodb": "mongodb://localhost:27017/feathers_email_verification"
 }

@@ -1,6 +1,6 @@
 import { Application } from "@feathersjs/express";
 import { ServiceMethods } from "@feathersjs/feathers";
-import { createTransport, Transporter, SendMailOptions } from "nodemailer";
+import { createTransport, SendMailOptions, Transporter } from "nodemailer";
 
 export class Mails implements Partial<ServiceMethods<SendMailOptions>> {
     private transporter: Transporter;
