@@ -32,8 +32,8 @@
     "host": "smtp.mailtrap.io",
     "port": 2525,
     "auth": {
-      "user": "c6baf707786ac5",
-      "pass": "70173b0015acd0"
+      "user": "<Your user>",
+      "pass": "<Your pass>"
     }
   },
   "domain": "http://localhost:8080",
