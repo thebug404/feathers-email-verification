@@ -12,8 +12,6 @@ export class Mails implements Partial<ServiceMethods<SendMailOptions>> {
 
     /**
      * We send the email.
-     * @param data 
-     * @returns 
      */
     async create(data: Partial<SendMailOptions>): Promise<any> {
         return await this.transporter.sendMail(data);
