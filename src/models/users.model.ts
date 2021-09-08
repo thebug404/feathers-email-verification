@@ -7,6 +7,7 @@ export default function (app: Application): Model<any> {
 
   const schema = new mongooseClient.Schema(
     {
+      fullname: { type: String, required: true },
       email: { type: String, unique: true, lowercase: true },
       password: { type: String },
       isVerified: { type: Boolean },
